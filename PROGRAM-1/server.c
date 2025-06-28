@@ -10,7 +10,7 @@
 
 int main() 
 { 
-int cont,create_socket,new_socket,addrlen,fd; 
+int cont,create_socket,new_socket,addrlen,fd;
 char *buffer = malloc(1024),fname[256]; 
 struct sockaddr_in address; 
 
