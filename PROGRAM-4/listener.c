@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 struct sockaddr_in addr; 
 int fd, nbytes,addrlen,bufsize=25;
 struct ip_mreq mreq; 
-char buf[25]; 
+char buf[bufsize]; 
 u_int yes=1;          
 
 fd=socket(AF_INET,SOCK_DGRAM,0);
