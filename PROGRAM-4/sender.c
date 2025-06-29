@@ -25,3 +25,9 @@ while(1){
   } 
  return 0;
 } 
+
+/*
+run listener first
+cc sender.c -o sender
+./sender
+*/

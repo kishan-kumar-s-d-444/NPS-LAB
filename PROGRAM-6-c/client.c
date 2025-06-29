@@ -37,3 +37,8 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
+/*
+run server first
+cc client.c -o client
+./client 127.0.0.1
+*/

@@ -30,3 +30,9 @@ while((cont=recv(create_socket, buffer, 1024, 0))>0) write(1, buffer, cont);
 printf("\nEOF\n"); 
 return close(create_socket); 
 }
+
+/*
+run server first
+cc client.c -o client
+./client 127.0.0.1
+*/

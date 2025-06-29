@@ -56,3 +56,8 @@ int main(){
  } 
  return 0; 
 } 
+
+/*
+cc proto.c
+./a.out
+*/

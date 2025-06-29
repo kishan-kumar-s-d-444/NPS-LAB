@@ -31,10 +31,13 @@ int main() {
     addr.sin_addr.s_addr = INADDR_ANY;
     addr.sin_port = htons(16001);
 
-    if (bind(sockfd, (struct sockaddr*)&serv_address, sizeof(serv_address)) == 0) printf("Binding Socket\n");
+    if (bind(sockfd, (struct sockaddr*)&addr, sizeof(addr)) == 0) printf("Binding Socket\n");
 
     str_echo(sockfd);
     close(sockfd);
     return 0;
 }
-
+/*
+cc server.c -o server
+./server 
+*/

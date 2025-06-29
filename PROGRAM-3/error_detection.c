@@ -26,3 +26,8 @@ int main()
   if (result1==result2)  printf("No error"); 
   else printf("Error in data received"); 
 }
+
+/*
+cc errordetection.c
+./a.out
+*/

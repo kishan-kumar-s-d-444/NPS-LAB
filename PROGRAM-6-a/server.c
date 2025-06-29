@@ -51,3 +51,7 @@ close(connfd);
 return 0;
 
 } 
+/*
+cc server.c -o server
+./server 
+*/

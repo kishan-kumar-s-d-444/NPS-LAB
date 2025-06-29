@@ -87,3 +87,8 @@ int main()
    }
 return 1; 
 }
+
+/*
+cc error_correction.c
+./a.out
+*/

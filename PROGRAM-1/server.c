@@ -35,3 +35,7 @@ printf("Request Completed\n");
 close(new_socket); 
 return close(create_socket); 
 }
+/*
+cc server.c -o server
+./server 
+*/

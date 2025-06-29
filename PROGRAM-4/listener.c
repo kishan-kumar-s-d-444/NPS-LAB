@@ -35,3 +35,9 @@ while(1){
    }
  return 0; 
 } 
+
+
+/*
+cc listener.c -o listener
+./listener
+*/

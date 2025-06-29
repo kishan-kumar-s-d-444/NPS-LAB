@@ -43,9 +43,13 @@ int main() {
             close(create_socket);
             str_echo(connfd);
             close(connfd);
-            exit(0);
+            // exit(0);
         }
         close(connfd);
     }
     return 0;
 }
+/*
+cc server.c -o server
+./server 
+*/

@@ -37,4 +37,9 @@ str_cli(stdin,create_socket);
 return close(create_socket); 
 } 
 
+/*
+run server first
+cc client.c -o client
+./client 127.0.0.1
+*/
  

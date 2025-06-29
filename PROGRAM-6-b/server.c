@@ -43,3 +43,7 @@ printf("Client disconnected. Waiting for next client...\n");
 }
 return 0;
 } 
+/*
+cc server.c -o server
+./server 
+*/
