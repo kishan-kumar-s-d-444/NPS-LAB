@@ -1,7 +1,8 @@
 #include<stdio.h> 
 int A[10][10],n,d[10],p[10]; 
 
-void BellmanFord(int s){ 
+void BellmanFord(int s){
+int i,j,u,v;
  for(int i=1;i<n;i++){ 
     for(int u=0;u<n;u++){ 
         for(int v=0;v<n;v++){ 
@@ -24,6 +25,7 @@ void BellmanFord(int s){
  
 
 int main(){
+ int i,j,source;
  printf("Enter the no. of vertices : "); 
  scanf("%d",&n); 
  printf("Enter the adjacency matrix\n"); 
