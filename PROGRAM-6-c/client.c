@@ -11,10 +11,11 @@ void str_cli(FILE *fp, int sockfd, struct sockaddr *serv_address, int servlen) {
     int bufsize = 1024, cont;
     char *buffer = malloc(bufsize);
     struct sockaddr_in addr;
+    socklen_t len = sizeof(struct sockaddr_in);
 
     while (fgets(buffer, bufsize, fp) != NULL) {
         sendto(sockfd, buffer, bufsize, 0, serv_address, servlen);
-        cont = recvfrom(sockfd, buffer, bufsize, 0, (struct sockaddr*)&addr,sizeof(addr));
+        cont = recvfrom(sockfd, buffer, bufsize, 0, (struct sockaddr*)&addr,&len);
         if (cont > 0) {
             printf("Reply from %s: ", inet_ntoa(addr.sin_addr));
             fputs(buffer, stdout);
