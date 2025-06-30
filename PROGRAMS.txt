@@ -3,13 +3,19 @@
 2.Write a program to implement distance vector routing protocol for a 
  simple topology of routers. 
 
-3.Write a program to implement error detection and Correction concept 
-using Checksum and   Hamming code. 
+3.Write a program to implement 
+  a) error detection 
+  b) error Correction 
+  concept using Checksum and Hamming code. 
 
 4.Implement a simple multicast routing mechanism. 
 
 5.Write a program to implement concurrent chat server that allows current 
 logged in users to communicate one with other.  
 
-6.Implementation of concurrent and iterative echo server using both 
-connection and connectionless socket system calls.
+6.Implementation of 
+  a) concurrent echo server using connection oriented -TCP
+  b) iterative echo server using connection oriented -TCP
+  c) concurrent echo server using connectionless -UDP
+  d) iterative echo server using connectionless -UDP
+ socket system calls.
