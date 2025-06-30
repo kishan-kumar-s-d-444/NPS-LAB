@@ -8,8 +8,7 @@ int i,j,u,v;
         for(int v=0;v<n;v++){ 
             if(d[v] > d[u] + A[u][v]){ 
                d[v] = d[u] + A[u][v]; 
-               p[v] = u;
-               
+               p[v] = u;       
               } 
            } 
        } 
