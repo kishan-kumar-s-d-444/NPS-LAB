@@ -16,6 +16,5 @@ logged in users to communicate one with other.
 6.Implementation of 
   a) concurrent echo server using connection oriented -TCP
   b) iterative echo server using connection oriented -TCP
-  c) concurrent echo server using connectionless -UDP
-  d) iterative echo server using connectionless -UDP
+  c) echo server using connectionless -UDP
  socket system calls.
